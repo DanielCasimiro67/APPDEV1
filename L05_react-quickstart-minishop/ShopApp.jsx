@@ -12,11 +12,13 @@ function ProductCard({ product, onAddToCart }) {
     <div className="product-card">
       <h3>{product.title}</h3>
 
+      {/* Conditionally style price text based on whether it is a fruit or vegetable */}
       <p style={{ color: product.isFruit ? 'magenta' : 'darkgreen' }}>
         ${product.price.toFixed(2)}
       </p>
 
-      {product.popular && <span>⭐ Popular</span>}
+      {/* Conditionally render the popular tag. The space after Popular ensures it doesn't squish against the button. */}
+      {product.popular && <span>⭐ Popular </span>}
 
       <button onClick={onAddToCart}>Add to Cart</button>
     </div>
@@ -24,6 +26,7 @@ function ProductCard({ product, onAddToCart }) {
 }
 
 export default function ShopApp() {
+  // Shared state for the cart count lives at the top level
   const [cartCount, setCartCount] = useState(0);
 
   function handleAddToCart() {
@@ -51,7 +54,7 @@ export default function ShopApp() {
         )}
       </div>
 
-      <div className="product-list" style={{ display: 'flex', gap: '1rem' }}>
+      <div className="product-list" style={{ display: 'flex', gap: '1.5rem' }}>
         {products.map(product => (
           <ProductCard 
             key={product.id} 
