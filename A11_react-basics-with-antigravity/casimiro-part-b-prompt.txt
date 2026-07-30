@@ -1,0 +1,1 @@
+Analyze the @src\App.css and @src\components\tracks\SongList.css styling and apply futuristic design improvements. I want it to look like an Apple Music mobile playlist design with sleek dark gray containers, Apple crimson red accents, glassmorphism elements, and glowing borders. Don't add new files, just new styling.
