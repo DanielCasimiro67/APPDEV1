@@ -107,3 +107,13 @@ Act as a code reviewer. Scan this file for variable declaration style (specifica
 ### Reflection
 Antigravity can act as a reviewer. I was refreshed about consts and let. it again waited for me before approval.
 
+
+### Filename
+11_arrow_functions.js
+
+### Prompt
+Target: @11_arrow_functions.js
+Plan a safe refactor to convert the required standard functions into modern arrow functions. Wait for my approval. After applying the edits, run the file to verify the behavior hasn't changed. Finally, explain which of the functions use an implicit return versus a function body, and connect this concept to how React writes inline event handlers like onClick.
+
+### Reflection
+Antigravity planned a safe refactor, and explained arrow functions.

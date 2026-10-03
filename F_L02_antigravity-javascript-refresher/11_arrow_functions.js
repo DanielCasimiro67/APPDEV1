@@ -1,5 +1,5 @@
-const greet = name => "Hey there, " + name + "!";
-const square = n => n * n;
+const greet = (name) => "Hey there, " + name + "!";
+const square = (n) => n * n;
 
 const sayHi = () => {
   console.log("Kumusta!");
