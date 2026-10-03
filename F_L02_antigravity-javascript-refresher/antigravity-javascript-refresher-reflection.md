@@ -96,3 +96,14 @@ Do not run or edit the file yet. First, build a prediction table for all the con
 ### Reflection
 Antigravity build predition table and explained behavior of methods and others, it waited for me again before executing.
 
+
+### Filename
+10_let_const.js
+
+### Prompt
+Target: @10_let_const.js
+Act as a code reviewer. Scan this file for variable declaration style (specifically looking for var). Do not make any automatic edits. Explain the modern rules for when to use const versus let, and why var is avoided. Suggest exactly one specific, safe improvement for the file, and wait for my approval before applying it.
+
+### Reflection
+Antigravity can act as a reviewer. I was refreshed about consts and let. it again waited for me before approval.
+

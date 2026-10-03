@@ -7,5 +7,5 @@ console.log(name);
 // age = 22; // Error: Assignment to constant variable
 console.log(age);
 
-var city = "Angeles City"; // works, but avoid var
+const city = "Angeles City"; // Refactored to use const instead of var
 console.log(city);
