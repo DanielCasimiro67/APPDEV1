@@ -51,3 +51,14 @@ Plan out a sequence to demonstrate push, shift, a for...of loop, and the .map() 
 
 ### Reflection
 Antigravity planned a sequence, learned more about push, shift, a for...of loop, and the .map(). With this I realized the importance of doing a structurized sequence.
+
+
+### Filename
+06_control_structures.js
+
+### Prompt
+Target: @06_control_structures.js
+The grade checker logic currently has a bug. Do not edit the file yet. First, run the file to reproduce the incorrect output. Second, explain the root cause of the logic failure. Third, propose the smallest possible fix. Wait for my approval before making the edit, then run the file again to prove it works.
+
+### Reflection
+Antigravity asked multiple confirmation before changing here, because in this part it uses different git commands, and it executed it based on my prompt.
