@@ -41,3 +41,13 @@ I need to build an aboutMe object with my name, age, course, and an introduce() 
 ### Reflection
 Antigravity really and strictly follow my prompt and explained the implementation. I learned much more.
 
+
+### Filename
+05_arrays.js
+
+### Prompt
+Target: @05_arrays.js
+Plan out a sequence to demonstrate push, shift, a for...of loop, and the .map() method. Stop and wait for my approval. After you implement and run the file, provide an explanation of which operations mutate the original array, which return a brand new array, and why understanding .map() is critical for rendering lists in React.
+
+### Reflection
+Antigravity planned a sequence, learned more about push, shift, a for...of loop, and the .map(). With this I realized the importance of doing a structurized sequence.
