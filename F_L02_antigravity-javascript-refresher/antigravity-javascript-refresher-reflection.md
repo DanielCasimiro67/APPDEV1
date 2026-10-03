@@ -73,3 +73,16 @@ Do not write or change any code yet. Read the file and explain which DOM element
 
 ### Reflection
 Antigravity explain it to me clearly how I test my dom.html, it did not change anything in the code, because it's not in the prompt, so no changes for 07_dom.html
+
+
+### Filename
+08_essential_features.js
+
+### Prompt
+Target: @08_essential_features.js
+Outline a plan to implement .map(), object destructuring, and the spread operator, explaining why these three features are heavily used in React. Wait for my approval. Once approved, implement the code and run the file. End by explaining the spread operator line (e.g., ...numbers) as if I am a complete beginner.
+
+### Reflection
+Antigravity explain part 8 and implementations. I explained it much easier.
+
+
