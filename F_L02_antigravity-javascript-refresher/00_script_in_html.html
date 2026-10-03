@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daniel's JS Basics</title>
+</head>
+<body>
+  <h1>Loading Daniel's Page...</h1>
+
+  <!-- Inline script: JS written directly inside the tag -->
+  <script>
+    console.log("Inline script says hi from Daniel's page!");
+  </script>
+
+  <!-- Classic script: runs immediately where it sits, no import/export -->
+  <script src="legacy.js"></script>
+
+  <!-- Module script: waits for the HTML to finish parsing, runs once,
+       has its own private scope, and CAN use import/export -->
+  <script type="module" src="app.js"></script>
+
+  <!-- A second module script importing a named export from another file -->
+  <script type="module">
+    import { profileInfo } from "./15_modules_export.js";
+    console.log(`Imported profile: ${profileInfo.name}, ${profileInfo.course}`);
+  </script>
+</body>
+</html>
