@@ -62,3 +62,14 @@ The grade checker logic currently has a bug. Do not edit the file yet. First, ru
 
 ### Reflection
 Antigravity asked multiple confirmation before changing here, because in this part it uses different git commands, and it executed it based on my prompt.
+
+
+### Filename
+07_dom.js
+
+### Prompt
+Target: @07_dom.html
+Do not write or change any code yet. Read the file and explain which DOM element the button targets, how the event listener works, and why setTimeout creates a delay. Next, write out a step-by-step manual browser verification checklist for me to follow. Finally, explain conceptually how this direct DOM mutation would differ from a state-driven React component.
+
+### Reflection
+Antigravity explain it to me clearly how I test my dom.html, it did not change anything in the code, because it's not in the prompt, so no changes for 07_dom.html
