@@ -86,3 +86,13 @@ Outline a plan to implement .map(), object destructuring, and the spread operato
 Antigravity explain part 8 and implementations. I explained it much easier.
 
 
+### Filename
+09_tricky_parts.js
+
+### Prompt
+Target: @09_tricky_parts.js
+Do not run or edit the file yet. First, build a prediction table for all the console.log statements so I can guess the output regarding equality and emptiness. Second, explain the behavior of this in arrow vs regular methods, and how copy-by-reference differs from a spread copy. Propose a plan for the exercise, wait for approval, and then execute it.
+
+### Reflection
+Antigravity build predition table and explained behavior of methods and others, it waited for me again before executing.
+
