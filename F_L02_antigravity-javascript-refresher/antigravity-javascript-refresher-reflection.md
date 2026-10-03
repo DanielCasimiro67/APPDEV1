@@ -7,3 +7,14 @@ I need to log a simple greeting and declare two variables for my first name usin
 
 ### Reflection
 Antigravity explained why myName and myname does not cause an error, because they are just different variables.
+
+### Filename
+02_variables.js
+
+### Prompt
+Target: @02_variables.js
+Before modifying the file, explain the core differences between string, number, and boolean data types, how the typeof operator functions, and the strict difference between == and ===. Then, outline a short plan for implementing this exercise and wait for my approval before coding and running the file.
+
+### Reflection
+Antigravity explained the Core Data Types, The `typeof` Operator, Difference betwen == and ===. Then created a short plan, and it follows exactly my prompt so it's good.
+
