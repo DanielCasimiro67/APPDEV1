@@ -1,12 +1,12 @@
 const aboutMe = {
   name: "Daniel",
   age: 21,
-  course: "BSIS",
-  introduce: function () {
-    console.log(`Hi, I'm ${this.name}, taking up ${this.course}.`);
+  course: "Computer Science",
+  
+  // Using standard function syntax (ES6 shorthand) so 'this' works correctly
+  introduce() {
+    return `Hi, my name is ${this.name}, I am ${this.age} years old, and I am studying ${this.course}.`;
   }
 };
 
-aboutMe.hobby = "Chess";
-aboutMe.introduce();
-console.log(aboutMe.hobby);
+console.log(aboutMe.introduce());

@@ -8,12 +8,14 @@ I need to log a simple greeting and declare two variables for my first name usin
 ### Reflection
 Antigravity explained why myName and myname does not cause an error, because they are just different variables.
 
+
 ### Filename
 02_variables.js
 
 ### Prompt
 Target: @02_variables.js
 Before modifying the file, explain the core differences between string, number, and boolean data types, how the typeof operator functions, and the strict difference between == and ===. Then, outline a short plan for implementing this exercise and wait for my approval before coding and running the file.
+
 
 ### Reflection
 Antigravity explained the Core Data Types, The `typeof` Operator, Difference betwen == and ===. Then created a short plan, and it follows exactly my prompt so it's good.
@@ -28,4 +30,14 @@ Formulate an implementation plan that creates a standard function declaration fo
 ### Reflection
 Antigravity formulated a plan that follows my prompt, waiting for my approvement and explain each code block by block, and learned much better.
 
+
+### Filename
+04_objects.js
+
+### Prompt
+Target: @04_objects.js
+I need to build an aboutMe object with my name, age, course, and an introduce() method. Before writing any code, explain exactly why introduce() needs to be a standard function instead of an arrow function so it can properly access this.name. Outline your plan, wait for my approval, then implement and run the file.
+
+### Reflection
+Antigravity really and strictly follow my prompt and explained the implementation. I learned much more.
 
